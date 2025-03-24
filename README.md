@@ -1,20 +1,20 @@
-Automated Messages
+### Automated Messages
 
 A simple Python program to send job notifications through WhatsApp.
 
 Used Libraries
 
-pywhatkit - Sends WhatsApp messages automatically.
+1. pywhatkit - Sends WhatsApp messages automatically.
 
-pyautogui - Simulates keyboard/mouse actions (used to type and send messages).
+2. pyautogui - Simulates keyboard/mouse actions (used to type and send messages).
 
-time - Adds delays between actions.
+3. time - Adds delays between actions.
 
-os - Used to close browser windows.
+4. os - Used to close browser windows.
 
-random - Generates random numbers and selects random items.
+5. random - Generates random numbers and selects random items.
 
-Features
+# Features
 
 Sends automated WhatsApp messages.
 
@@ -24,7 +24,7 @@ Other alternatives like Twilio or third-party tools can be used for better contr
 
 Note: WhatsApp does not allow anonymous messaging.
 
-How to Run
+# How to Run
 
 Install dependencies by running:
 
@@ -34,7 +34,7 @@ Run the script:
 
 python msg.py
 
-Future Improvements
+# Future Improvements
 
 Implement Twilio or other third-party APIs for more flexibility.
 
@@ -42,4 +42,4 @@ Support for anonymous messaging via alternative platforms.
 
 Enhance automation features and improve reliability.
 
-📌 Disclaimer: This script relies on WhatsApp Web.
+# 📌 Disclaimer: This script relies on WhatsApp Web.
